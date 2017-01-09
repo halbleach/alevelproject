@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @demerit.description %>
+</p>
+
+<p>
+  <strong>Student:</strong>
+  <%= @demerit.student %>
+</p>
+
+<%= link_to 'Edit', edit_demerit_path(@demerit) %> |
+<%= link_to 'Back', demerits_path %>
